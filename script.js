@@ -29,3 +29,13 @@ deleteBtn.addEventListener("click", () => {
     localStorage.removeItem("bookNowString");
     displayBtn();
 })
+
+function changeBlack(){
+    const black = document.getElementById("changeBlack");
+    body.style.backgroundColor = "black";
+}
+function changeWhite(){
+    const white = document.getElementById("changeWhite");
+    body.style.backgroundColor = "white";
+}
+
