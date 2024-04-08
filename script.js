@@ -31,9 +31,9 @@ deleteBtn.addEventListener("click", () => {
 })
 
 function changeBlack(){
-    body.style.backgroundColor = "black";
+    document.body.style.backgroundColor = "black";
 }
 function changeWhite(){
-    body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = "white";
 }
 
